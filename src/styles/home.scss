@@ -1,0 +1,218 @@
+$defaultColor: #6d7278;
+
+p {
+  color: $defaultColor;
+}
+
+.divider,
+.divider-lg,
+.divider-sm {
+  background-color: #b1afaf;
+  width: 2px;
+}
+
+.divider-sm {
+  height: 15px;
+}
+
+.divider-lg {
+  height: 20px;
+  width: 2.5px;
+}
+
+.home {
+  margin-bottom: 500px;
+}
+
+.top {
+  border-bottom: 1px dashed #c4c4c4;
+  .red-container {
+    background-color: #ff5555;
+    padding: 12px 20px;
+    color: #fff;
+    width: 100px;
+    h6 {
+      margin: 0px;
+    }
+  }
+
+  p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+  }
+
+  .social-logo {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+  }
+}
+
+.middle {
+  padding: 20px 0px;
+  .display-4 {
+    font-weight: 600;
+  }
+  .banner {
+    background-color: #2a3a47;
+    height: 100px;
+    border-radius: 5px;
+  }
+  img {
+    width: 80px;
+    height: auto;
+    color: blue;
+  }
+}
+
+.navbar {
+  .mNav {
+    a {
+      padding: 10px 20px 10px;
+      margin-right: 10px;
+      text-decoration: none;
+      color: $defaultColor;
+      font-weight: 500;
+    }
+    a:hover {
+      background-color: #e7e7e7;
+      transition: 0.4s all;
+    }
+    p {
+      margin: 0px;
+      padding: 0px;
+    }
+  }
+  .col-8 {
+    padding: 0px;
+  }
+
+  img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .weather {
+    img {
+      width: 40px;
+      height: 40px;
+    }
+    .location {
+      font-size: 12px;
+      font-weight: 500;
+      color: $defaultColor;
+    }
+  }
+}
+
+.interesting {
+  margin-top: 50px;
+  .carousel,
+  .carousel-item {
+    height: 80px !important;
+    padding: 0px 30px;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 40px !important;
+    background-color: #fff;
+  }
+
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    background-color: #1191ff;
+    transition: 0.4s all;
+  }
+
+  .fas {
+    color: black;
+  }
+
+  .carousel-control-next:hover .fas {
+    color: #fff;
+  }
+
+  .carousel-control-prev:hover .fas {
+    color: #fff;
+  }
+}
+
+.interesting-item {
+  p {
+    font-size: 12px;
+  }
+
+  img {
+    object-position: bottom;
+    object-fit: cover;
+  }
+  h6 {
+    font-weight: bold;
+  }
+}
+
+.video-news {
+  margin-top: 50px;
+  .img-container {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-size: cover;
+  }
+
+  .carousel,
+  .carousel-item {
+    height: 60px !important;
+    padding: 0px 40px 0px 20px;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 40px !important;
+    background-color: #fff;
+  }
+
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    background-color: #1191ff;
+    transition: 0.4s all;
+  }
+
+  .fas {
+    color: black;
+  }
+
+  .carousel-control-next:hover .fas {
+    color: #fff;
+  }
+
+  .carousel-control-prev:hover .fas {
+    color: #fff;
+  }
+}
+
+.landing-side {
+  margin-top: 50px;
+  .col-4 {
+    margin: 0px;
+    padding: 0px;
+  }
+  .mBtn {
+    padding: 10px 20px;
+    background-color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0px 5px;
+    cursor: pointer;
+    box-shadow: 5px 5px 30px 10px #e7e7e7;
+  }
+
+  .mBtn:hover {
+    background-color: #1191ff;
+    color: #fff;
+  }
+}

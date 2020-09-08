@@ -268,3 +268,39 @@ p {
 .landing-slide-item-last {
   border-bottom: none;
 }
+
+.featured-news {
+  margin-top: 50px;
+
+  h3 {
+    font-weight: 600;
+  }
+}
+
+.featured-item {
+  margin-top: 20px;
+  cursor: pointer;
+
+  .img-container {
+    position: relative;
+    height: 400px;
+    padding: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .content {
+    position: absolute;
+    bottom: 0px;
+  }
+
+  p {
+    font-size: 12px;
+    color: #fff;
+  }
+
+  .title {
+    font-size: 16px;
+    font-weight: 600;
+  }
+}

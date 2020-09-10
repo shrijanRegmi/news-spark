@@ -10,7 +10,7 @@
           <p class="slash-icon mx-3">/</p>
           <p class="date">March 26, 2020</p>
         </div>
-        <h5>Copa America: Luis Suarez from devastated US</h5>
+        <h6>Copa America: Luis Suarez from devastated US</h6>
       </div>
     </div>
   </div>

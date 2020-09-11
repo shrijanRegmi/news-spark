@@ -26,7 +26,7 @@
 <script>
 import TrendingNewsItem from "../trending/trending_news_item";
 import LandingSideItem from "../landing/landing_side_item";
-import BorderBtn from "../border_btn";
+import BorderBtn from "../../border_btn";
 
 export default {
   name: "SportsNews",

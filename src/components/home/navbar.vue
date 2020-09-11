@@ -4,11 +4,11 @@
       <div class="col-8">
         <div class="mNav">
           <router-link to="/">Home</router-link>
-          <router-link to="/">Pages</router-link>
-          <router-link to="/">Posts</router-link>
-          <router-link to="/">World</router-link>
-          <router-link to="/">Sport</router-link>
-          <router-link to="/">Contact</router-link>
+          <router-link to="/">Featured</router-link>
+          <router-link to="/">Trending</router-link>
+          <router-link to="/">Entertainment</router-link>
+          <router-link to="/">Sports</router-link>
+          <router-link to="/">Business</router-link>
         </div>
       </div>
       <div class="col-4">

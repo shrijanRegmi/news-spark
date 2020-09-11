@@ -8,7 +8,7 @@
   </div>
 </template>
 
-<style>
+<style lang="scss">
 #app {
   font-family: Nunito, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -28,5 +28,25 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.border-btn {
+  border: 1px solid #2c3e50;
+  width: 120px;
+  text-align: center;
+
+  p {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+.border-btn:hover {
+  background-color: #1191ff;
+  border-color: #1191ff;
+  transition: 0.5s;
+  p {
+    color: #fff;
+  }
 }
 </style>

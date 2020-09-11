@@ -9,6 +9,7 @@
     <StackedNews />
     <div class="container">
       <EntertainmentNews />
+      <SportsNews />
     </div>
   </div>
 </template>
@@ -20,6 +21,7 @@ import FeaturedNews from "@/components/home/featured/featured";
 import TrendingNews from "@/components/home/trending/trending";
 import StackedNews from "@/components/home/stacked/stacked";
 import EntertainmentNews from "@/components/home/entertainment/entertainment";
+import SportsNews from "@/components/home/sports/sports";
 
 export default {
   name: "Home",
@@ -30,6 +32,7 @@ export default {
     TrendingNews,
     StackedNews,
     EntertainmentNews,
+    SportsNews,
   },
 };
 </script>

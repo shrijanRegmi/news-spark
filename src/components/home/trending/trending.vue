@@ -7,49 +7,11 @@
         <div class="top-section">
           <div class="row">
             <div class="col">
-              <div
-                class="img-container"
-                :style="{
-                  'background-image': `url(${require('@/assets/images/sample-2.jpg')})`,
-                }"
-              ></div>
-
-              <div class="d-flex">
-                <p class="type">TECHNOLOGY</p>
-                <p class="slash-icon mx-3">/</p>
-                <p class="date">March 26, 2020</p>
-              </div>
-
-              <div class="details">
-                <h4>Nancy Zhang a Chinese busy woman and Dhaka</h4>
-                <p>
-                  The property, complete with 30-seat screening from room, a
-                  100-seat amphitheater and a swimming pond with sandy shower…
-                </p>
-              </div>
+              <TrendingNewsItem />
             </div>
 
             <div class="col">
-              <div
-                class="img-container"
-                :style="{
-                  'background-image': `url(${require('@/assets/images/sample-1.jpeg')})`,
-                }"
-              ></div>
-
-              <div class="d-flex">
-                <p class="type">TECHNOLOGY</p>
-                <p class="slash-icon mx-3">/</p>
-                <p class="date">March 26, 2020</p>
-              </div>
-
-              <div class="details">
-                <h4>Nancy Zhang a Chinese busy woman and Dhaka</h4>
-                <p>
-                  The property, complete with 30-seat screening from room, a
-                  100-seat amphitheater and a swimming pond with sandy shower…
-                </p>
-              </div>
+              <TrendingNewsItem />
             </div>
           </div>
         </div>
@@ -87,11 +49,13 @@
 
 <script>
 import LandingSideItem from "../landing/landing_side_item";
+import TrendingNewsItem from "./trending_news_item";
 
 export default {
   name: "TrendingNews",
   components: {
     LandingSideItem,
+    TrendingNewsItem,
   },
 };
 </script>

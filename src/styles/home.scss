@@ -367,7 +367,7 @@ p {
   margin-top: 300px;
 
   .main-container {
-    height: 600px;
+    height: 500px;
     background-color: #18222b;
     position: relative;
   }
@@ -434,6 +434,12 @@ p {
   }
 
   h4 {
+    cursor: pointer;
     font-weight: 600;
+  }
+
+  h4:hover {
+    color: $fancyBlue;
+    transition: 0.4s;
   }
 }

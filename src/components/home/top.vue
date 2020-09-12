@@ -4,7 +4,7 @@
       <div class="row d-flex justify-content-between align-items-center">
         <div class="col-4">
           <div class="red-container">
-            <h6>Trending</h6>
+            <h6>Trending News</h6>
           </div>
         </div>
         <div class="col-8">

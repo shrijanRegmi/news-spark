@@ -6,10 +6,9 @@
         <BusinessNewsItem />
         <BusinessNewsItem />
         <BusinessNewsItem />
-        <BusinessNewsItem />
       </div>
       <div class="col-4">
-        <h3>Most Share</h3>
+        <h4>Most Share</h4>
         <MostShareItem class="mt-3" count="1" />
         <MostShareItem class="mt-4" count="2" />
         <MostShareItem class="mt-4" count="3" />

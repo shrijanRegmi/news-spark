@@ -9,6 +9,10 @@
 </template>
 
 <style lang="scss">
+html {
+  scroll-behavior: smooth;
+}
+
 #app {
   font-family: Nunito, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -48,5 +52,15 @@
   p {
     color: #fff;
   }
+}
+
+.top-scroller {
+  position: absolute;
+  right: 0;
+  width: 80px;
+  height: 110px;
+  background-color: #ff5555;
+  border-radius: 20px;
+  float: right;
 }
 </style>

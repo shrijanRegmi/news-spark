@@ -3,12 +3,12 @@
     <div class="row d-flex justify-content-between align-items-center w-100">
       <div class="col-8">
         <div class="mNav">
-          <router-link to="/">Home</router-link>
-          <router-link to="/">Featured</router-link>
-          <router-link to="/">Trending</router-link>
-          <router-link to="/">Entertainment</router-link>
-          <router-link to="/">Sports</router-link>
-          <router-link to="/">Business</router-link>
+          <a href="#landing">Home</a>
+          <a href="#featured">Featured</a>
+          <a href="#trending">Trending</a>
+          <a href="#entertainment">Entertainment</a>
+          <a href="#sports">Sports</a>
+          <a href="#business">Business</a>
         </div>
       </div>
       <div class="col-4">

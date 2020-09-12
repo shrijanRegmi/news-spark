@@ -2,15 +2,15 @@
   <div class="home">
     <Header />
     <div class="container">
-      <Landing />
-      <FeaturedNews />
-      <TrendingNews />
+      <Landing id="landing" />
+      <FeaturedNews id="featured" />
+      <TrendingNews id="trending" />
     </div>
     <StackedNews />
     <div class="container">
-      <EntertainmentNews />
-      <SportsNews />
-      <BusinessNews />
+      <EntertainmentNews id="entertainment" />
+      <SportsNews id="sports" />
+      <BusinessNews id="business" />
     </div>
   </div>
 </template>
@@ -40,6 +40,6 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import "@/styles/home.scss";
 </style>

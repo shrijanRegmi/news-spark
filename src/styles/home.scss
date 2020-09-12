@@ -443,3 +443,43 @@ p {
     transition: 0.4s;
   }
 }
+
+.most-share-item {
+  margin-top: 5px;
+  cursor: pointer;
+
+  .number {
+    position: relative;
+    border-radius: 50%;
+    padding: 30px;
+    background-color: #eeeeee;
+    width: 60px;
+    height: 60px;
+  }
+
+  h4 {
+    position: absolute;
+    top: 50;
+    bottom: 50;
+    transform: translate(-50%, -50%);
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    color: #b1b1b1;
+  }
+
+  p {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  .type {
+    font-weight: bold;
+    color: $fancyBlue;
+  }
+
+  :hover h6 {
+    color: $fancyBlue;
+    transition: 0.4s;
+  }
+}

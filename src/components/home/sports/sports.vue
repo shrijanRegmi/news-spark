@@ -1,24 +1,53 @@
 <template>
   <div class="sports-news">
     <h3>Sports News</h3>
-
     <div class="row mt-3">
-      <div class="col-9">
+      <div class="col-4 mt-2">
+        <TrendingNewsItem />
+        <BorderBtn class="mt-3" />
+      </div>
+      <div class="col-8">
         <div class="row">
-          <div class="col-6 mt-2">
-            <TrendingNewsItem />
-            <BorderBtn class="mt-3" />
+          <div class="col">
+            <LandingSideItem />
           </div>
-          <div class="col-6">
+          <div class="col">
             <LandingSideItem />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
             <LandingSideItem />
+          </div>
+          <div class="col">
             <LandingSideItem />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
             <LandingSideItem />
+          </div>
+          <div class="col">
+            <LandingSideItem />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <LandingSideItem />
+          </div>
+          <div class="col">
+            <LandingSideItem />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <LandingSideItem />
+          </div>
+          <div class="col">
             <LandingSideItem />
           </div>
         </div>
       </div>
-      <div class="col-3"></div>
     </div>
   </div>
 </template>

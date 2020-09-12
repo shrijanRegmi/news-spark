@@ -1,9 +1,8 @@
 <template>
   <div class="trending-news">
-    <h3>Trending News</h3>
-
     <div class="row">
       <div class="col-8">
+        <h3>Trending News</h3>
         <div class="top-section">
           <div class="row">
             <div class="col">
@@ -35,6 +34,7 @@
       <div class="col-4 most-views">
         <h4>Most Views</h4>
 
+        <LandingSideItem />
         <LandingSideItem />
         <LandingSideItem />
         <LandingSideItem />

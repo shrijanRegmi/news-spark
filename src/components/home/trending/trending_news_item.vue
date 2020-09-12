@@ -17,7 +17,6 @@
       <h4>Nancy Zhang a Chinese busy woman and Dhaka</h4>
       <p>
         The property, complete with 30-seat screening from room, a 100-seat
-        amphitheater and a swimming pond with sandy shower…
       </p>
     </div>
   </div>

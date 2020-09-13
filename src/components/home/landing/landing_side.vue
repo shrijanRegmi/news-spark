@@ -2,13 +2,13 @@
   <div class="landing-side">
     <div class="row">
       <div class="col-4">
-        <div class="mBtn">RELATED</div>
+        <div class="mBtn">सम्बन्धित</div>
       </div>
       <div class="col-4">
-        <div class="mBtn">BUSINESS</div>
+        <div class="mBtn">ब्रेकिंग</div>
       </div>
       <div class="col-4">
-        <div class="mBtn">POPULAR</div>
+        <div class="mBtn">लोकप्रिय</div>
       </div>
     </div>
 

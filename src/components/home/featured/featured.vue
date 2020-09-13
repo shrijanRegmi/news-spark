@@ -1,6 +1,6 @@
 <template>
   <div class="featured-news">
-    <h3>Featured News</h3>
+    <h3>विशेष समाचार</h3>
     <div id="featuredCarousel" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">

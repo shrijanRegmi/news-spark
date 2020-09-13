@@ -2,7 +2,7 @@
   <div class="trending-news">
     <div class="row">
       <div class="col-8">
-        <h3>Trending News</h3>
+        <h3>राजनीतिक समाचार</h3>
         <div class="top-section">
           <div class="row">
             <div class="col">
@@ -32,7 +32,7 @@
       </div>
 
       <div class="col-4 most-views">
-        <h4>Most Views</h4>
+        <h4>धेरै हेरिएको</h4>
 
         <LandingSideItem />
         <LandingSideItem />

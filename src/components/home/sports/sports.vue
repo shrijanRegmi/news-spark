@@ -1,6 +1,6 @@
 <template>
   <div class="sports-news">
-    <h3>Sports News</h3>
+    <h3>खेल समाचार</h3>
     <div class="row mt-3">
       <div class="col-4 mt-2">
         <TrendingNewsItem />

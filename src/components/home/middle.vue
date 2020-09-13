@@ -9,7 +9,7 @@
             </div>
             <div class="col-8">
               <div class="display-4">
-                Newsprk
+                गुनासो चौतारी
               </div>
             </div>
           </div>

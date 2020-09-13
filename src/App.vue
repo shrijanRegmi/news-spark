@@ -13,6 +13,11 @@ html {
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: 'Nepali';
+  src: url('/assets/fonts/cv_aakriti.ttf');
+}
+
 #app {
   font-family: Nunito, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

@@ -1,15 +1,15 @@
 <template>
   <div class="trending-news">
     <div class="row">
-      <div class="col-8">
+      <div class="col-lg-8">
         <h3>राजनीतिक समाचार</h3>
         <div class="top-section">
           <div class="row">
-            <div class="col">
+            <div class="col-md">
               <TrendingNewsItem />
             </div>
 
-            <div class="col">
+            <div class="col-md">
               <TrendingNewsItem />
             </div>
           </div>
@@ -17,21 +17,21 @@
 
         <div class="bottom-section">
           <div class="row">
-            <div class="col"><LandingSideItem /></div>
-            <div class="col"><LandingSideItem /></div>
+            <div class="col-md"><LandingSideItem /></div>
+            <div class="col-md"><LandingSideItem /></div>
           </div>
           <div class="row">
-            <div class="col"><LandingSideItem /></div>
-            <div class="col"><LandingSideItem /></div>
+            <div class="col-md"><LandingSideItem /></div>
+            <div class="col-md"><LandingSideItem /></div>
           </div>
           <div class="row">
-            <div class="col"><LandingSideItem /></div>
-            <div class="col"><LandingSideItem /></div>
+            <div class="col-md"><LandingSideItem /></div>
+            <div class="col-md"><LandingSideItem /></div>
           </div>
         </div>
       </div>
 
-      <div class="col-4 most-views">
+      <div class="col-lg-4 most-views mt-5 mt-lg-0">
         <h4>धेरै हेरिएको</h4>
 
         <LandingSideItem />

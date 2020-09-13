@@ -3,19 +3,19 @@
     <h3>मनोरन्जन समाचार</h3>
     
     <div class="row mt-4">
-      <div class="col">
+      <div class="col-md">
         <TrendingNewsItem />
       </div>
-      <div class="col">
+      <div class="col-md">
         <TrendingNewsItem />
       </div>
     </div>
 
     <div class="row mt-3">
-      <div class="col">
+      <div class="col-md">
         <TrendingNewsItem />
       </div>
-      <div class="col">
+      <div class="col-md">
         <TrendingNewsItem />
       </div>
     </div>

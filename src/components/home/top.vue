@@ -9,7 +9,7 @@
         </div>
         <div class="col-8">
           <div class="d-flex justify-content-end align-items-center">
-            <div class="date mr-3">
+            <div class="date mr-3 d-none d-sm-block">
               <p>२८ भदौ २०७७, आइतवार</p>
             </div>
             <div class="divider-sm mr-3"></div>

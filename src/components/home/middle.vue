@@ -1,13 +1,13 @@
 <template>
   <div class="middle">
     <div class="row d-flex align-items-center">
-      <div class="col-5 ">
+      <div class="col-lg-5">
         <div class="title">
           <div class="row d-flex align-items-center">
-            <div class="col-3">
+            <div class="col-lg-3 col-2">
               <img src="@/assets/svgs/news.svg" alt="" srcset="" />
             </div>
-            <div class="col-8">
+            <div class="col-lg-8 col-10">
               <div class="display-4">
                 गुनासो चौतारी
               </div>
@@ -16,7 +16,7 @@
         </div>
       </div>
 
-      <div class="col-7">
+      <div class="col-lg-7 mt-3 mt-lg-0">
         <div class="banner"></div>
       </div>
     </div>

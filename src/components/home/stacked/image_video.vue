@@ -2,7 +2,7 @@
   <div class="image-video-news">
     <div class="container text-center">
       <div class="row">
-        <div class="col">
+        <div class="col-md">
           <div
             class="img-container"
             :style="{
@@ -10,7 +10,7 @@
             }"
           ></div>
         </div>
-        <div class="col">
+        <div class="col-md mt-4 mt-md-0">
           <div
             class="img-container"
             :style="{

@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar">
+  <div class="navbar d-none d-lg-block">
     <div class="row d-flex justify-content-between align-items-center w-100">
       <div class="col-8">
         <div class="mNav">

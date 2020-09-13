@@ -49,6 +49,12 @@ p {
     height: 15px;
     margin-right: 10px;
   }
+
+  @media screen and (max-width: 458px) {
+    h6 {
+      font-size: 14px;
+    }
+  }
 }
 
 .middle {
@@ -66,6 +72,24 @@ p {
     width: 80px;
     height: auto;
     color: blue;
+  }
+
+  @media screen and (max-width: 600px) {
+    .display-4 {
+      font-size: 32px !important;
+    }
+  }
+
+  @media screen and (max-width: 528px) {
+    img {
+      width: 50px;
+    }
+  }
+
+  @media screen and (max-width: 452px) {
+    .display-4 {
+      font-size: 28px !important;
+    }
   }
 }
 
@@ -112,34 +136,45 @@ p {
 
 .interesting {
   margin-top: 30px;
+
+  .carousel {
+    padding: 0px 40px;
+  }
+
   .carousel,
   .carousel-item {
     height: 80px !important;
-    padding: 0px 30px;
-  }
-
-  .carousel-control-prev,
-  .carousel-control-next {
-    width: 40px !important;
-    background-color: #fff;
-  }
-
-  .carousel-control-prev:hover,
-  .carousel-control-next:hover {
-    background-color: $fancyBlue;
-    transition: 0.4s all;
   }
 
   .fas {
     color: black;
   }
 
-  .carousel-control-next:hover .fas {
-    color: #fff;
+  #interestingCarousel-lg,
+  #interestingCarousel-md {
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: 40px !important;
+      background-color: #fff;
+    }
+
+    .carousel-control-prev:hover,
+    .carousel-control-next:hover {
+      background-color: $fancyBlue;
+      transition: 0.4s all;
+    }
+
+    .carousel-control-next:hover .fas {
+      color: #fff;
+    }
+
+    .carousel-control-prev:hover .fas {
+      color: #fff;
+    }
   }
 
-  .carousel-control-prev:hover .fas {
-    color: #fff;
+  #interestingCarousel-sm {
+    padding: 0px;
   }
 }
 
@@ -168,6 +203,12 @@ p {
   h6 {
     font-weight: bold;
   }
+
+  @media screen and (max-width: 450px) {
+    h6 {
+      font-size: 14px;
+    }
+  }
 }
 
 .video-news {
@@ -177,13 +218,20 @@ p {
     width: 100%;
     margin-bottom: 10px;
     background-size: cover;
+
+    @media only screen and (max-width: 600px) {
+      height: 300px;
+    }
   }
 
-  .carousel,
+  .carousel {
+    height: 60px !important;
+    padding: 0px 40px;
+    cursor: pointer;
+  }
+
   .carousel-item {
     height: 60px !important;
-    padding: 0px 40px 0px 20px;
-    cursor: pointer;
   }
 
   .carousel-control-prev,
@@ -208,6 +256,12 @@ p {
 
   .carousel-control-prev:hover .fas {
     color: #fff;
+  }
+
+  @media screen and (max-width: 500px) {
+    .carousel {
+      padding: 0px;
+    }
   }
 }
 
@@ -372,6 +426,15 @@ p {
     height: 500px;
     background-color: #18222b;
     position: relative;
+
+    @media screen and (max-width: 768px) {
+      margin-bottom: 100px;
+      margin-top: 100px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-top: 110px;
   }
 }
 
@@ -380,9 +443,19 @@ p {
   position: absolute;
   top: -240px;
 
+  @media screen and (max-width: 768px) {
+    top: -70px;
+  }
+
   .container {
     background-color: #fff;
     padding: 30px 0px 30px 30px;
+
+    @media screen and (max-width: 768px) {
+      padding: 0px;
+      padding-left: 30px;
+      background-color: transparent;
+    }
   }
 
   .row {
@@ -394,6 +467,10 @@ p {
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+
+    @media screen and (max-width: 768px) {
+      height: 300px;
+    }
   }
 }
 

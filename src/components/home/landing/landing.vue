@@ -2,10 +2,10 @@
   <div class="landing">
     <Interesting />
     <div class="row">
-      <div class="col-8">
+      <div class="col-lg-8">
         <VideoNews />
       </div>
-      <div class="col-4">
+      <div class="col-lg-4">
         <LandingSide />
       </div>
     </div>

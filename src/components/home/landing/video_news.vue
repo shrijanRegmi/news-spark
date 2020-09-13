@@ -50,7 +50,7 @@
         </div>
       </div>
       <a
-        class="carousel-control-prev"
+        class="carousel-control-prev d-none d-sm-flex"
         href="#vidNewsCarousel"
         role="button"
         data-slide="prev"
@@ -59,7 +59,7 @@
         <span class="sr-only">Previous</span>
       </a>
       <a
-        class="carousel-control-next"
+        class="carousel-control-next d-none d-sm-flex"
         href="#vidNewsCarousel"
         role="button"
         data-slide="next"

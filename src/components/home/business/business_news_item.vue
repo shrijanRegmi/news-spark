@@ -1,7 +1,7 @@
 <template>
-  <div class="business-news-item">
+  <div class="business-news-item mb-4 mb-md-0">
     <div class="row">
-      <div class="col">
+      <div class="col-md">
         <div
           class="img-container"
           :style="{
@@ -9,7 +9,7 @@
           }"
         ></div>
       </div>
-      <div class="col">
+      <div class="col-md mt-4 mt-md-0">
         <div class="d-flex">
           <p class="type">TECHNOLOGY</p>
           <p class="slash-icon mx-3">/</p>

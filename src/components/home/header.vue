@@ -3,8 +3,8 @@
     <TopSection />
     <div class="container">
       <MiddleSection />
-      <Navbar />
     </div>
+    <Navbar />
   </div>
 </template>
 

@@ -22,7 +22,7 @@
 export default {
   name: "MostShareItem",
   props: {
-    count: Number,
+    count: String,
   },
 };
 </script>

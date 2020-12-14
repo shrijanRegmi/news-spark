@@ -8,7 +8,10 @@ const routes = [
   {
     path: "/",
     name: "Home",
-    component: Home
+    component: Home,
+    meta: {
+      title: "गुनासो चौतारी"
+    },
   },
   {
     path: "/about",
@@ -24,6 +27,12 @@ const routes = [
 const router = new VueRouter({
   routes,
   mode: 'history'
+});
+
+router.beforeEach((to, from, next) => {
+  var myTitle = to.meta.title;
+  document.title = myTitle;
+  next();
 });
 
 export default router;

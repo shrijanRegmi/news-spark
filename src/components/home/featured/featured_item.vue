@@ -4,18 +4,18 @@
       <div
         class="img-container"
         :style="{
-          'background-image': `url(${require('@/assets/images/sample-5.jpg')})`,
+          'background-image': `url(${require(`@/assets/images/${news.img}`)})`,
         }"
       >
         <div class="content">
           <div class="d-flex">
-            <p class="type font-weight-bold">TECHNOLOGY</p>
+            <p class="type font-weight-bold">{{ news.category }}</p>
             <p class="slash-icon mx-3">/</p>
-            <p class="date">March 26, 2020</p>
+            <p class="date">{{ news.date }}</p>
           </div>
 
           <p class="title">
-            Venezuela elan govt and opposit the property collect
+            {{ news.title }}
           </p>
         </div>
       </div>
@@ -26,6 +26,9 @@
 <script>
 export default {
   name: "FeaturedItem",
+  props: {
+    news: Object,
+  },
 };
 </script>
 

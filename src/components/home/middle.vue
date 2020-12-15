@@ -5,7 +5,7 @@
         <div class="title">
           <div class="row d-flex align-items-center">
             <div class="col-lg-3 col-2">
-              <img src="@/assets/svgs/news.svg" alt="" srcset="" />
+              <img src="@/assets/logo.png" alt="" srcset="" />
             </div>
             <div class="col-lg-8 col-10">
               <div class="display-4">

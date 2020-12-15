@@ -11,48 +11,32 @@
         <div class="carousel-item active">
           <div class="row">
             <div class="col">
-              <FeaturedItem />
+              <FeaturedItem :news="getFeatured[0]" />
             </div>
             <div class="col">
-              <FeaturedItem />
+              <FeaturedItem :news="getFeatured[1]" />
             </div>
             <div class="col">
-              <FeaturedItem />
+              <FeaturedItem :news="getFeatured[2]" />
             </div>
             <div class="col">
-              <FeaturedItem />
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row">
-            <div class="col">
-              <FeaturedItem />
-            </div>
-            <div class="col">
-              <FeaturedItem />
-            </div>
-            <div class="col">
-              <FeaturedItem />
-            </div>
-            <div class="col">
-              <FeaturedItem />
+              <FeaturedItem :news="getFeatured[3]" />
             </div>
           </div>
         </div>
         <div class="carousel-item">
           <div class="row">
             <div class="col">
-              <FeaturedItem />
+              <FeaturedItem :news="getFeatured[4]" />
             </div>
             <div class="col">
-              <FeaturedItem />
+              <FeaturedItem :news="getFeatured[5]" />
             </div>
             <div class="col">
-              <FeaturedItem />
+              <FeaturedItem :news="getFeatured[6]" />
             </div>
             <div class="col">
-              <FeaturedItem />
+              <FeaturedItem :news="getFeatured[7]" />
             </div>
           </div>
         </div>
@@ -86,30 +70,40 @@
         <div class="carousel-item active">
           <div class="row">
             <div class="col">
-              <FeaturedItem />
+              <FeaturedItem :news="getFeatured[0]"/>
             </div>
             <div class="col">
-              <FeaturedItem />
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row">
-            <div class="col">
-              <FeaturedItem />
-            </div>
-            <div class="col">
-              <FeaturedItem />
+              <FeaturedItem :news="getFeatured[1]"/>
             </div>
           </div>
         </div>
         <div class="carousel-item">
           <div class="row">
             <div class="col">
-              <FeaturedItem />
+              <FeaturedItem :news="getFeatured[2]"/>
             </div>
             <div class="col">
-              <FeaturedItem />
+              <FeaturedItem :news="getFeatured[3]"/>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col">
+              <FeaturedItem :news="getFeatured[4]"/>
+            </div>
+            <div class="col">
+              <FeaturedItem :news="getFeatured[5]"/>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col">
+              <FeaturedItem :news="getFeatured[6]"/>
+            </div>
+            <div class="col">
+              <FeaturedItem :news="getFeatured[7]"/>
             </div>
           </div>
         </div>
@@ -143,21 +137,56 @@
         <div class="carousel-item active">
           <div class="row">
             <div class="col">
-              <FeaturedItem />
+              <FeaturedItem :news="getFeatured[0]"/>
             </div>
           </div>
         </div>
         <div class="carousel-item">
           <div class="row">
             <div class="col">
-              <FeaturedItem />
+              <FeaturedItem :news="getFeatured[1]"/>
             </div>
           </div>
         </div>
         <div class="carousel-item">
           <div class="row">
             <div class="col">
-              <FeaturedItem />
+              <FeaturedItem :news="getFeatured[2]"/>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col">
+              <FeaturedItem :news="getFeatured[3]"/>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col">
+              <FeaturedItem :news="getFeatured[4]"/>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col">
+              <FeaturedItem :news="getFeatured[5]"/>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col">
+              <FeaturedItem :news="getFeatured[6]"/>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col">
+              <FeaturedItem :news="getFeatured[7]"/>
             </div>
           </div>
         </div>
@@ -186,12 +215,14 @@
 
 <script>
 import FeaturedItem from "./featured_item";
+import { mapGetters } from "vuex";
 
 export default {
   name: "FeaturedNews",
   components: {
     FeaturedItem,
   },
+  computed: mapGetters(["getFeatured"]),
 };
 </script>
 

@@ -3,27 +3,31 @@
     <div
       class="img-container"
       :style="{
-        'background-image': `url(${require('@/assets/images/sample-1.jpeg')})`,
+        'backgroundImage': `url(${require(`@/assets/images/${news.img}`)})`,
       }"
     ></div>
 
     <div class="d-flex">
-      <p class="type">TECHNOLOGY</p>
+      <p class="type">{{ news.category }}</p>
       <p class="slash-icon mx-3">/</p>
-      <p class="date">March 26, 2020</p>
+      <p class="date">{{ news.date }}</p>
     </div>
 
     <div class="details">
-      <h4>Nancy Zhang a Chinese busy woman and Dhaka</h4>
+      <h4>{{ news.title }}</h4>
       <p>
-        The property, complete with 30-seat screening from room, a 100-seat
+        {{ news.short }}
       </p>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    news: Object,
+  },
+};
 </script>
 
 <style></style>

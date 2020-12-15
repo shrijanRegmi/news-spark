@@ -2,7 +2,7 @@
   <div class="video-news">
     <iframe
       class="img-container"
-      src="https://www.youtube.com/embed/v64KOxKVLVg"
+      src="https://www.youtube.com/embed/AiQBZj5A8O4"
       allowfullscreen
       frameBorder="0"
     ></iframe>

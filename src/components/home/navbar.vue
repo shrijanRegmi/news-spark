@@ -90,7 +90,6 @@ export default {
     var sticky = navbar.offsetTop;
 
     function myFunction() {
-      console.log(window.pageYOffset, sticky);
       if (window.pageYOffset >= sticky) {
         navbar.classList.add("sticky");
       } else {

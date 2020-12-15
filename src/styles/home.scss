@@ -69,9 +69,15 @@ p {
     border-radius: 5px;
   }
   img {
-    width: 80px;
+    width: 100px;
     height: auto;
     color: blue;
+  }
+
+  @media screen and (max-width: 770px) {
+    .display-4 {
+      margin-left: 32px !important;
+    }
   }
 
   @media screen and (max-width: 600px) {
@@ -81,8 +87,14 @@ p {
   }
 
   @media screen and (max-width: 528px) {
+    .display-4 {
+      margin-left: 0px !important;
+    }
     img {
       width: 50px;
+    }
+    .col-lg-8 {
+      padding: 0px;
     }
   }
 
@@ -324,15 +336,19 @@ p {
   border-bottom: 1px dashed #c4c4c4;
   cursor: pointer;
 
+  img {
+    margin-top: 8px;
+  }
+
   :hover h6 {
     color: $fancyBlue;
     transition: 0.4s;
   }
 
-  :hover img {
-    transition: 0.4s;
-    transform: scale(1.05);
-  }
+  // :hover img {
+  //   transition: 0.4s;
+  //   transform: scale(1.05);
+  // }
 
   p {
     font-size: 12px;
@@ -372,7 +388,7 @@ p {
   .img-container {
     position: relative;
     height: 400px;
-    padding: 30px;
+    // padding: 30px;
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -380,6 +396,11 @@ p {
   .content {
     position: absolute;
     bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    padding: 10px 20px;
+    height: 110px;
   }
 
   p {
@@ -405,6 +426,7 @@ p {
   }
 
   h4 {
+    font-size: 22px;
     font-weight: 600;
   }
 

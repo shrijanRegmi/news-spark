@@ -3,48 +3,13 @@
     <h3>खेल समाचार</h3>
     <div class="row mt-3">
       <div class="col-lg-4 mt-2">
-        <TrendingNewsItem />
+        <TrendingNewsItem :news="getSports[0]" />
         <BorderBtn class="mt-3" />
       </div>
       <div class="col-lg-8 mt-4 mt-lg-0">
         <div class="row">
-          <div class="col-md">
-            <LandingSideItem />
-          </div>
-          <div class="col-md">
-            <LandingSideItem />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md">
-            <LandingSideItem />
-          </div>
-          <div class="col-md">
-            <LandingSideItem />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md">
-            <LandingSideItem />
-          </div>
-          <div class="col-md">
-            <LandingSideItem />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md">
-            <LandingSideItem />
-          </div>
-          <div class="col-md">
-            <LandingSideItem />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md">
-            <LandingSideItem />
-          </div>
-          <div class="col-md">
-            <LandingSideItem />
+          <div v-for="news in getSports" :key="news.id" class="col-md-6">
+            <LandingSideItem :news="news" />
           </div>
         </div>
       </div>
@@ -56,6 +21,7 @@
 import TrendingNewsItem from "../trending/trending_news_item";
 import LandingSideItem from "../landing/landing_side_item";
 import BorderBtn from "../../border_btn";
+import { mapGetters } from "vuex";
 
 export default {
   name: "SportsNews",
@@ -64,6 +30,7 @@ export default {
     LandingSideItem,
     BorderBtn,
   },
+  computed: mapGetters(["getSports"]),
 };
 </script>
 

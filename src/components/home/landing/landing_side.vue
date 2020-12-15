@@ -13,21 +13,24 @@
     </div>
 
     <div class="content mt-4">
-      <LandingSideItem />
-      <LandingSideItem />
-      <LandingSideItem />
-      <LandingSideItem class="landing-slide-item-last" />
+      <LandingSideItem :news="getNews[0]" />
+      <LandingSideItem :news="getNews[0]" />
+      <LandingSideItem :news="getNews[0]" />
+      <LandingSideItem :news="getNews[0]" class="landing-slide-item-last" />
     </div>
   </div>
 </template>
 
 <script>
 import LandingSideItem from "./landing_side_item";
+import { mapGetters } from "vuex";
+
 export default {
   name: "LandingSide",
   components: {
     LandingSideItem,
   },
+  computed: mapGetters(["getNews"]),
 };
 </script>
 

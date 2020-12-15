@@ -2,15 +2,20 @@
   <div class="landing-side-item">
     <div class="row">
       <div class="col-3">
-        <img src="@/assets/images/sample-4.jpg" alt="" height="80px" width="100%">
+        <img
+          :src="`${require(`@/assets/images/resized/${news.img}`)}`"
+          alt=""
+          height="75px"
+          width="100%"
+        />
       </div>
       <div class="col-9">
         <div class="d-flex">
-          <p class="type">TECHNOLOGY</p>
+          <p class="type">{{ news.category }}</p>
           <p class="slash-icon mx-3">/</p>
-          <p class="date">March 26, 2020</p>
+          <p class="date">{{ news.date }}</p>
         </div>
-        <h6>Copa America: Luis Suarez from devastated US</h6>
+        <h6>{{ news.short }}</h6>
       </div>
     </div>
   </div>
@@ -18,8 +23,11 @@
 
 <script>
 export default {
-  name: 'LandingSideItem'
-}
+  name: "LandingSideItem",
+  props: {
+    news: Object,
+  },
+};
 </script>
 
 <style lang="scss">

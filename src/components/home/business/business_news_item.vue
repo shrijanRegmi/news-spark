@@ -5,7 +5,8 @@
         <div
           class="img-container"
           :style="{
-            'background-image': `url(${require('@/assets/images/sample-6.jpg')})`,
+            'background-image': `url(${require(`@/assets/images/${news.img}`)})`,
+            'background-position': 'center',
           }"
         ></div>
       </div>

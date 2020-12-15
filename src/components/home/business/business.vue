@@ -3,9 +3,7 @@
     <div class="row">
       <div class="col-lg-8">
         <h3>व्यापार समाचार</h3>
-        <BusinessNewsItem :news="getNews[0]" />
-        <BusinessNewsItem :news="getNews[0]" />
-        <BusinessNewsItem :news="getNews[0]" />
+        <BusinessNewsItem v-for="news in getBusiness" :key="news.id" :news="news" />
       </div>
       <div class="col-lg-4 mt-5 mt-lg-0">
         <h4>सब भन्दा सेयर गरिएको</h4>
@@ -32,7 +30,7 @@ export default {
     BusinessNewsItem,
     MostShareItem,
   },
-  computed: mapGetters(["getNews"]),
+  computed: mapGetters(["getBusiness"]),
 };
 </script>
 

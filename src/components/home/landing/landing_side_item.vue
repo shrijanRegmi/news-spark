@@ -2,12 +2,15 @@
   <div class="landing-side-item">
     <div class="row">
       <div class="col-3">
-        <img
-          :src="`${require(`@/assets/images/resized/${news.img}`)}`"
-          alt=""
-          height="75px"
-          width="100%"
-        />
+        <div class="img"
+          :style="{
+            'background-image': `url(${require(`@/assets/images/resized/${news.img}`)})`,
+            'background-size': 'cover',
+            'background-postion': 'center',
+            width: '100%',
+            height: '75px',
+          }"
+        ></div>
       </div>
       <div class="col-9">
         <div class="d-flex">

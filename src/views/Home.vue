@@ -25,6 +25,7 @@ import EntertainmentNews from "@/components/home/entertainment/entertainment";
 import SportsNews from "@/components/home/sports/sports";
 import BusinessNews from "@/components/home/business/business";
 import { mapGetters } from "vuex";
+
 export default {
   name: "Home",
   components: {

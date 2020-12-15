@@ -6,7 +6,7 @@
           <div
             class="img-container"
             :style="{
-              'background-image': `url(${require('@/assets/images/sample-3.jpg')})`,
+              'background-image': `url(${require('@/assets/images/Double/double1.png')})`,
             }"
           ></div>
         </div>
@@ -14,7 +14,7 @@
           <div
             class="img-container"
             :style="{
-              'background-image': `url(${require('@/assets/images/sample-3.jpg')})`,
+              'background-image': `url(${require('@/assets/images/Double/double2.png')})`,
             }"
           ></div>
         </div>

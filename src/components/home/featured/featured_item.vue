@@ -5,6 +5,7 @@
         class="img-container"
         :style="{
           'background-image': `url(${require(`@/assets/images/${news.img}`)})`,
+          'background-position': 'center',
         }"
       >
         <div class="content">

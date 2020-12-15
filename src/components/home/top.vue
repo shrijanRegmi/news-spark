@@ -10,7 +10,7 @@
         <div class="col-8">
           <div class="d-flex justify-content-end align-items-center">
             <div class="date mr-3 d-none d-sm-block">
-              <p>२८ भदौ २०७७, आइतवार</p>
+              <p>{{ currentDate }}</p>
             </div>
             <div class="divider-sm mr-3"></div>
             <div class="social-container d-flex">
@@ -55,8 +55,20 @@
 </template>
 
 <script>
+import NepaliDate from "nepali-date-converter";
+
 export default {
   name: "Top",
+  data() {
+    return {
+      currentDate: "",
+    };
+  },
+  created() {
+    let a = new NepaliDate();
+    const formatted = a.format("ddd DD, MMMM YYYY", "np");
+    this.currentDate = formatted;
+  },
 };
 </script>
 

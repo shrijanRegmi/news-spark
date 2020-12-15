@@ -17,7 +17,7 @@
 
         <div class="bottom-section">
           <div class="row">
-            <div class="col-md-6" v-for="news in getNews" :key="news.id">
+            <div class="col-md-6" v-for="news in getPolitics" :key="news.id">
               <LandingSideItem :news="news" />
             </div>
           </div>
@@ -26,7 +26,9 @@
 
       <div class="col-lg-4 most-views mt-5 mt-lg-0">
         <h4>धेरै हेरिएको</h4>
-        <LandingSideItem v-for="news in getNews" :key="news.id" :news="news" />
+        <div v-for="(news, index) in getNews" :key="news.id">
+          <LandingSideItem v-if="index < 5" :news="news" />
+        </div>
       </div>
     </div>
   </div>

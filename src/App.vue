@@ -1,12 +1,27 @@
 <template>
   <div id="app">
-    <!-- <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div> -->
-    <router-view />
+    <Header />
+
+    <router-view>
+      <Home />
+      <NewsView />
+    </router-view>
   </div>
 </template>
+
+<script>
+import Header from "@/components/home/header";
+import Home from "./views/Home";
+import NewsView from "./views/News_View";
+
+export default {
+  components: {
+    Header,
+    Home,
+    NewsView,
+  },
+};
+</script>
 
 <style lang="scss">
 html {
@@ -14,7 +29,7 @@ html {
 }
 
 #app {
-  font-family: 'Mukta', sans-serif;
+  font-family: "Mukta", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;

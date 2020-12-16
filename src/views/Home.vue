@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <Header />
     <div class="container">
       <Landing id="landing" />
       <FeaturedNews id="featured" />

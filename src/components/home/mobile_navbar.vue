@@ -2,12 +2,12 @@
   <div class="mobile-nav text-center">
     <div class="content">
       <div class="links d-flex flex-column align-items-center">
-        <a href="#landing" @click="onLinkClick">घर</a>
-        <a href="#featured" @click="onLinkClick">विशेष</a>
-        <a href="#trending" @click="onLinkClick">राजनीतिक</a>
-        <a href="#entertainment" @click="onLinkClick">मनोरञ्जन</a>
-        <a href="#sports" @click="onLinkClick">खेलकुद</a>
-        <a href="#business" @click="onLinkClick">व्यापार</a>
+        <a href="/#landing" @click="onLinkClick">घर</a>
+        <a href="/#featured" @click="onLinkClick">विशेष</a>
+        <a href="/#trending" @click="onLinkClick">राजनीतिक</a>
+        <a href="/#entertainment" @click="onLinkClick">मनोरञ्जन</a>
+        <a href="/#sports" @click="onLinkClick">खेलकुद</a>
+        <a href="/#business" @click="onLinkClick">व्यापार</a>
       </div>
     </div>
   </div>

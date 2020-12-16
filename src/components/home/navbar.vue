@@ -7,12 +7,12 @@
         >
           <div class="col-8">
             <div class="mNav d-flex">
-              <a href="#landing">घर</a>
-              <a href="#featured">विशेष</a>
-              <a href="#trending">राजनीतिक</a>
-              <a href="#entertainment">मनोरञ्जन</a>
-              <a href="#sports">खेलकुद</a>
-              <a href="#business">व्यापार</a>
+              <a href="/#landing">घर</a>
+              <a href="/#featured">विशेष</a>
+              <a href="/#trending">राजनीतिक</a>
+              <a href="/#entertainment">मनोरञ्जन</a>
+              <a href="/#sports">खेलकुद</a>
+              <a href="/#business">व्यापार</a>
             </div>
           </div>
           <div class="col-4">
@@ -110,6 +110,7 @@ export default {
       .then((response) => response.json())
       .then((data) => {
         this.temp = data.main.feels_like;
+        console.log('This is success!!!!');
       })
       .catch((e) => console.log("Error getting weather", e));
   },

@@ -2,23 +2,16 @@
   <div id="app">
     <Header />
 
-    <router-view>
-      <Home />
-      <NewsView />
-    </router-view>
+    <router-view :key="this.$route.params.id"> </router-view>
   </div>
 </template>
 
 <script>
 import Header from "@/components/home/header";
-import Home from "./views/Home";
-import NewsView from "./views/News_View";
 
 export default {
   components: {
     Header,
-    Home,
-    NewsView,
   },
 };
 </script>

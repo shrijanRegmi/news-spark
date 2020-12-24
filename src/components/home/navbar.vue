@@ -110,7 +110,6 @@ export default {
       .then((response) => response.json())
       .then((data) => {
         this.temp = data.main.feels_like;
-        console.log('This is success!!!!');
       })
       .catch((e) => console.log("Error getting weather", e));
   },

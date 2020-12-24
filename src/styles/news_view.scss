@@ -9,4 +9,34 @@
   p {
     font-size: 22px;
   }
+
+  h3 {
+    font-size: 40px;
+  }
+  
+  .landing-side-item {
+    p {
+      font-size: 14px;
+    }
+  }
+
+  @media screen and(max-width: 768px) {
+    .img-container {
+      height: 400px;
+    }
+  }
+
+  @media screen and(max-width: 600px) {
+    h3 {
+      font-size: 28px;
+    }
+
+    .img-container {
+      height: 300px;
+    }
+  }
+}
+
+.more-content {
+  margin-top: 100px;
 }

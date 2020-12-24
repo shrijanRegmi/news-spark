@@ -3,20 +3,8 @@
     <h3>मनोरन्जन समाचार</h3>
 
     <div class="row mt-4">
-      <div class="col-md">
-        <TrendingNewsItem :news="getNews[0]" />
-      </div>
-      <div class="col-md">
-        <TrendingNewsItem :news="getNews[0]" />
-      </div>
-    </div>
-
-    <div class="row mt-3">
-      <div class="col-md">
-        <TrendingNewsItem :news="getNews[0]" />
-      </div>
-      <div class="col-md">
-        <TrendingNewsItem :news="getNews[0]" />
+      <div class="col-md-6" v-for="news in getEntertainment" :key="news.id">
+        <TrendingNewsItem :news="news" />
       </div>
     </div>
   </div>
@@ -31,7 +19,7 @@ export default {
   components: {
     TrendingNewsItem,
   },
-  computed: mapGetters(["getNews"]),
+  computed: mapGetters(["getEntertainment"]),
 };
 </script>
 

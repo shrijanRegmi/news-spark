@@ -22,6 +22,13 @@ const routes = [
       title: "गुनासो चौतारी",
     },
     props: true,
+  },
+  {
+    path: "*",
+    redirect: "/",
+    meta: {
+      title: "गुनासो चौतारी",
+    },
   }
 ];
 
